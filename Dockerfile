@@ -8,7 +8,7 @@ FROM    alpine
 # File Author / Maintainer
 MAINTAINER Toon Lamberigts and Tomas Vercautter
 
-ARG 7.0
+ARG PHORONIX_VERSION
 
 # Install dependencies
 RUN apk update && apk add --no-cache make gcc g++ libtool linux-headers perl pcre-dev php5 php5-dom php5-zip php5-json
